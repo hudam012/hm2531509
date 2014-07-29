@@ -12,11 +12,9 @@
 
 using namespace std;
 
-/*
- * 
- */
-int main(int argc, char** argv) {
-    
+void presentValue()
+
+{
     float futureVal = 10000;
     float interestRate, years, presentVal; 
     
@@ -27,7 +25,13 @@ int main(int argc, char** argv) {
     
     presentVal = (futureVal) / (pow(1+interestRate,years));
     
-    cout<<"You should deposit $"<<fixed<<setprecision(2)<<presentVal<<" today"<<endl; 
+    cout<<"You should deposit $"<<fixed<<setprecision(2)<<presentVal<<" today";
+    cout<<endl;
+}
+
+int main(int argc, char** argv) {
+    
+    presentValue();
 
     return 0;
 }

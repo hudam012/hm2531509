@@ -11,9 +11,6 @@
 
 using namespace std;
 
-/*
- * 
- */
 int main(int argc, char** argv) {
     
     float NS, SP, SC, PP, PC, profit;
